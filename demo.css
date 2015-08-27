@@ -1,0 +1,199 @@
+@charset "utf-8";
+article, aside, header, footer, nav, figure, section {
+    display: block;
+}
+body {
+    margin: 0px;
+    background-color: #F4FAFF;
+    color: #202020;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    width: 1200px;
+}
+h1, h2, h3 {
+    color: #577A99;
+}
+.wf-active h1, .wf-active h2, .wf-active h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-family: source-sans-pro;
+}
+h1   {
+    font-size: 48px;
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 44px;
+    padding-left: 20%;
+    text-shadow: 1px 1px 2px rgba(153,153,153,0.3);
+}
+.wf-active h1 span {
+    font-style: normal;
+    font-weight: 400;
+    font-family: kaushan-script;
+    position: relative;
+    top: -39px;
+    left: 35px;
+}
+figure {
+    margin: 0px;
+}
+#hero {
+    clear: left;
+}
+
+#mainnav ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+#mainnav a {
+    width: 160px;
+    display: block;
+    float: left;
+    color: #334759;
+    font-size: 20px;
+    text-decoration: none;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 2px 10px 4px;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus {
+    color: #82B7E5;
+}
+h2, h3 {
+    text-align: center;
+}
+h3 {
+    margin-top: 0px;
+}
+#intro {
+    background-color: #FCFBF7;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #EDEDEB;
+    border-bottom: 1px solid #EDEDEB;
+}
+#intro p {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teaser {
+    width: 560px;
+    padding: 40px 20px;
+    float: left;
+}
+.teaser figure{
+    margin-right: 20px;
+    float: left;
+    width: 260px;
+}
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.photoshadow {
+    padding: 5px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 15px #878787;
+    box-shadow: 1px 1px 15px #878787;
+}
+.teaserlink {
+    text-align: center;
+}
+.teaserlink a {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    background-color: #D7D7D7;
+    padding: 5px 25px;
+    color: #333333;
+    border-radius: 6px;
+}
+.teaserlink a:hover {
+    color: #FFFFFF;
+    background-color: #B9B9B9;
+    -webkit-box-shadow: 0px 0px 10px #d7d7d7;
+    box-shadow: 0px 0px 10px #d7d7d7;
+}
+footer {
+    clear: left;
+    padding: 20px;
+    border-top: 1px solid #EDEDEB;
+    background-image: -webkit-linear-gradient(270deg,rgba(216,216,216,1.00) 0%,rgba(252,252,252,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(216,216,216,1.00) 0%,rgba(252,252,252,1.00) 100%);
+}
+.footerlinks {
+    width: 32%;
+    float: left;
+}
+.footerlinks h3 {
+    color: #333333;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.footerlinks ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0.25em;
+}
+.footerlinks a{
+    color: #588C7E;
+    text-decoration: none;
+}
+.footerlinks a:hover, .footerlinks a:active, .footerlinks a:focus {
+    color: #D96459;
+}
+footer p {
+    clear: left;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+}
+.clearleft {
+    clear: left;
+}
+a {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+a:hover {
+    color: #82B7E5;
+}
+:lang(es) {
+    font-style: italic;
+}
+#main {
+    width: 760px;
+    float: left;
+    padding: 20px;
+}
+.figright {
+    float: right;
+    margin-left: 20px;
+}
+#sidebar {
+    width: 360px;
+    float: left;
+    padding: 20px;
+}
+#intro video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
